@@ -1,0 +1,2 @@
+#!/bin/bash
+for i in $(find . -type f|grep .js); do rm -rf $i; done
