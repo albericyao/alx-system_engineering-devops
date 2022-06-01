@@ -1,2 +1,2 @@
 #!/bin/bash
-for ((i=1, b=${BREATH}; i<${LOVE}; i++)); do ((b *=${BREATH})) ; done; echo $b
+echo $((${BREATH}**${LOVE}))
