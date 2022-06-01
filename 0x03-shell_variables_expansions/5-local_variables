@@ -1,4 +1,2 @@
 #!/bin/bash
-echo $(set) > set.sorted
-echo $(printenv) > printenv.sorted
 diff set.sorted printenv.sorted | grep "<" | awk '{ print $2 }'
